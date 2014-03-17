@@ -291,13 +291,14 @@ header nav ul li a:hover{
 
 .testimonials{
 	display: inline-block;
-	width: 260px;
+	width: 80%;
 	height: auto;
 	background: #f9f8f8;
 	position: relative;
 	padding: 30px 20px;
 	margin-right: 76px;
-	margin-bottom: 120px;
+    margin-left: 76px;
+	margin-bottom: 40px;
 	color: #909090;
 	font-family: "LatoRegular", arial;
 	font-size: 16px;
