@@ -11,7 +11,7 @@
 	- Billboard
 	- Services
 	- Call To Action
-	- Testimonials
+	- bio
 	- Footer
 	
 */
@@ -203,7 +203,7 @@ header nav ul li a:hover{
 
 
 /* Call To Action Style */
-.call_to_action{
+.overview{
 	width: 100%;
 	height: 460px;
 	background-color: #f7f7f7;
@@ -211,19 +211,19 @@ header nav ul li a:hover{
 	margin-bottom: 80px;
 }
 
-.call_to_action img{
+.overview img{
 	width: 578px;
 	margin-top: 73px;
 	margin-left: -99px;
 	float: left;
 }
-.call_to_action .cta_desc{
+.overview .cta_desc{
 	width: 580px;
 	float: right;
 	margin-top: 76px;
 }
 
-.call_to_action h3{
+.overview h3{
 	font-family: 'LatoBold', arial;
 	font-weight: bold;
 	color: #646363;
@@ -233,7 +233,7 @@ header nav ul li a:hover{
 	margin-bottom: 30px;
 }
 
-.call_to_action p{
+.overview p{
 	font-family: 'LatoRegular', arial;
 	color: #7e7e7e;
 	font-size: 16px;
@@ -242,7 +242,7 @@ header nav ul li a:hover{
 	margin-bottom: 50px;
 }
 
-.call_to_action a.cta_btn{
+.overview a.cta_btn{
 	padding: 15px 40px;
 	display: inline-block;
 	color: #fff;
@@ -266,15 +266,15 @@ header nav ul li a:hover{
 	-o-box-shadow: 0 3px 0 #cd8335;
 }
 
-.call_to_action a.cta_btn:hover{
+.overview a.cta_btn:hover{
 	background: #e69b4c;
 }
 
-.client_testimonials{
+.our_team{
 
 }
 
-.client_testimonials h3{
+.our_team h3{
 	color: #636363;
 	font-family: "LatoBold", arial;
 	font-size: 30px;
@@ -287,9 +287,9 @@ header nav ul li a:hover{
 
 
 
-/*  Testimonials  */
+/*  bio  */
 
-.testimonials{
+.bio{
 	display: inline-block;
 	width: 80%;
 	height: auto;
@@ -305,15 +305,15 @@ header nav ul li a:hover{
 	line-height: 20px;
 }
 
-.testimonials:last-child{
+.bio:last-child{
 	margin-right: 0;
 }
 
-.testimonials blockquote{
+.bio blockquote{
 	margin-bottom: 25px;
 }
 
-.testimonials a.author{
+.bio a.author{
 	display: block;
 	color: #7e7d7d;
 	font-family: "Latobold", arial;
@@ -323,11 +323,11 @@ header nav ul li a:hover{
 	text-decoration: none;
 }
 
-.testimonials a.author:hover{
+.bio a.author:hover{
 	color: #5c5c5c;
 }
 
-.testimonials img.avatar{
+.bio img.avatar{
 	position: absolute;
 	border-radius: 100px;
 	border: 4px #ffffff solid;
@@ -511,8 +511,8 @@ footer .rights a:hover{
 footer nav ul li a,
 footer .rights a,
 header nav ul li a,
-.call_to_action a.cta_btn,
-.testimonials a.author,
+.overview a.cta_btn,
+.bio a.author,
 .newsletter .submit_nl{
 	transition: .2s linear;
 	-webkit-transition: .2s linear;
